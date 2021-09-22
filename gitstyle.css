@@ -1,0 +1,29 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 1px solid rgb(212, 88, 88);
+	width: 80%;
+	background-color: rgb(236, 187, 187);
+}
+.menuNav {
+	display: flex;
+	justify-content: space-around;
+	width: 100px;
+	background-color: rgb(180, 60, 60);
+	flex-direction: column;
+	padding: 5%;
+	border-radius: 20%;
+	text-align: center;
+}
+.menuNav:hover {
+	background-color: rgb(77, 179, 179);
+	height: 50px;
+	border-radius: 20%;
+	text-align: center;
+	box-shadow: 0 20px 10px rgb(185, 55, 120);
+	justify-content: space-around;
+	font-size: large;
+}
+.menuNav:focus {
+	opacity: 90%;
+}
